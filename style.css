@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    text-align: center;
+    padding-top: 200px;
+    background-image: url(./img/background-travel-expert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 86px;
+    color: #151718;
+    padding-bottom: 4px;
+}
+
+h1 > span {
+    color: #DB2777;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2C2E2FE5;
+    opacity: .9;
+    padding-bottom: 72px;
+}
+
+a {
+    padding: 16px 32px;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151718;
+}
+
+.btn-travel {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+    background: #DB2777;
+    border-radius: 80px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
